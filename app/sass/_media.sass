@@ -1,0 +1,531 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+	#menu-burger	
+		width: 30px
+		color: red
+		position: absolute	
+		top: 4%
+		left: 90%
+	
+
+	.active
+		display: block
+		position: absolute
+		height: 100%
+		width: 50%
+		top: 0%
+		left: 0%
+		margin: 0
+		padding: 30px 0px 0px 40px
+		background-color: rgba(#fff, .98)
+		li
+			list-style-type: none
+			margin-top: 10px
+		a
+			font-weight: 600
+			color: $accent
+			text-transform: uppercase
+			text-decoration: none
+			&:hover
+				text-decoration: underline
+
+
+			
+
+	ul
+		display: none
+
+	.header-content
+		display: grid
+		grid-template-columns: 1fr 
+		grid-template-rows: 1fr 1fr
+		grid-column-gap: 100px
+		p
+			margin-top: 50px
+			color: #fff
+			font-size: 18px
+			font-weight: 300
+
+	.header-content-item
+		&:nth-child(1)
+			img
+				width: 0px
+
+
+		&:nth-child(2)
+			text-align: center
+			grid-row: 1 / 2
+			p
+				margin-top: 30px
+			button
+				margin-top: 50px
+
+
+	.contact-items
+		display: grid
+		grid-template-columns: 1fr 
+		grid-template-rows: 1fr 1fr
+		
+
+
+	.contact-item
+		&:nth-child(1)
+			background-color: #f8f8f8
+		&:nth-child(2)
+			display: grid 
+			grid-template-columns: 0px 1fr
+			background-color: #fff
+
+	.contact-item-1-container
+		width: 100%
+
+	.contact-hrefs
+		&:last-child
+			margin-bottom: 50px
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	.dow-items
+		width: 80%
+		margin: 30px auto 70px auto
+		display: grid
+		grid-template-columns: 1fr
+		grid-template-rows: 1fr 1fr 
+		grid-row-gap: 40px
+		text-align: center
+		justify-items: center
+
+	.tw-header
+		margin: 0
+		height: 170px
+		display: grid 
+		grid-template-columns: 110px 1fr 
+		grid-template-rows: 1fr 1fr
+		align-items: center
+		p
+			margin: 0px
+	
+	
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	.tw-header
+		margin: 0
+		margin-bottom: 120px
+		display: grid 
+		grid-template-columns: 1fr 
+		grid-template-rows: 1fr 1fr 1fr
+		grid-column-gap: 100px
+		justify-items: center
+		p
+			margin: 0px
+
+	.tw-header-item
+		&:nth-child(1)
+			margin-bottom: 20px
+		&:nth-child(3)
+			margin-top: 30px 
+
+	.header-content-item
+		&:nth-child(1)
+			img
+				width: 90%
+				margin-top: 20px
+				margin-bottom: 15px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+	
+	h1
+		margin-top: 40px
+
+
+	.container 
+		width: 90%
+		margin: 0 auto
+
+	.features-items
+		justify-items: center 
+		display: grid
+		grid-template-columns: 1fr
+		margin-top: 120px
+	
+	.features-item
+		&:nth-child(1)
+			img
+				width: 300px
+		
+
+
+	.features-icon
+		justify-items: center 
+		margin: 0 auto
+		padding: 0
+		margin-top: 30px
+		display: grid
+		grid-template-columns: 100px 1fr
+		text-align: left
+
+	.features-icon-item
+		img
+			margin-top: 13px
+		p
+			margin-top: 28px
+			text-align: left
+			line-height: 1.5em
+			margin-bottom: 9px	
+		
+	.scr-items
+		display: grid
+		grid-template-columns: 1fr 
+		width: 90%
+		margin: 0 auto
+		text-align: center
+		
+		
+		
+	.scr-item:nth-child(2)
+		img
+			width: 90%
+
+
+
+	.contact-titels
+		margin-top: 80px
+		text-align: center
+
+	.contact-hrefs
+		margin: 50px 0px 0px 20px
+		display: grid 
+		grid-template-columns: 50px 1fr 
+		grid-column-gap: 40px
+		color: $accent
+		font-weight: 400
+		img
+			float: right
+
+
+	.feedback
+		margin-top: 80px
+
+	#video
+		height: 75vh
+
+	.twitter
+		width: 95%
+		margin: 0px auto
+		border: 2px solid #e6e6e6
+		height: auto
+
+	.tw-container
+		margin: 0 auto
+		margin-top: 19px
+		width: 90%
+
+	.saying-items
+		grid-template-columns: 1fr 
+		grid-row-gap: 60px 
+
+	.about-items
+		grid-template-columns: 1fr  
+		grid-column-gap: 50px
+		grid-row-gap: 20px
+		margin: 40px 0px 50px 0px
+
+	.pricing-items
+		margin-top: 140px
+		display: grid
+		grid-template-columns: 1fr 
+		grid-row-gap: 80px
+		grid-column-gap: 55px
+		color: $accent
+		margin-left: 43px
+		width: 90%
+		margin: 0 auto
+
+	.feedback
+		font-size: 18px
+		font-weight: 400
+		margin: 30px 
+		margin-top: 40px
+		display: grid
+		grid-template-columns: 1fr
+		grid-row-gap: 10px
+		input
+			height: 50px
+			border: none
+		button
+			width: 200px
+			height: 50px
+			padding: 7px 10px
+			font-weight: 400
+	
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+	header
+		height: 760px
+
+	.pricing-items
+		width: 70%
+
+	.contact-hrefs
+		margin: 50px 0px 0px 110px
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+	h1
+		margin-top: 120px
+
+	.pricing-items
+		width: 60%
+
+	.about-items
+		margin-top: 120px
+		margin-bottom: 90px
+		grid-template-columns: 1fr 1fr 1fr 
+		grid-template-rows: 1fr 1fr
+		grid-column-gap: 50px
+		grid-row-gap: 20px
+
+	.saying-items
+		grid-template-columns: 1fr 1fr 1fr 
+		grid-column-gap: 10px
+
+	.dow-items
+		width: 700px
+		margin: 0 auto
+		margin-top: 100px
+		display: grid
+		grid-template-columns:  1fr 1fr
+		text-align: center
+		justify-items: center
+
+	.feedback
+		font-size: 18px
+		font-weight: 400
+		margin-left: 96px
+		display: grid
+		grid-template-columns: 380px
+		grid-row-gap: 50px
+		input
+			border: none
+		button
+			width: 160px
+			padding: 7px 20px
+			font-weight: 400
+
+	.tw-header
+		margin: 0
+		height: 170px
+		display: grid 
+		grid-template-columns: 110px 1fr 100px 
+		align-items: center
+		p
+			margin: 0px
+		hr
+			margin: 0
+			width: 300px
+		
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+	
+	.saying-items
+		grid-template-columns: 1fr 1fr 1fr 
+		grid-column-gap: 40px
+
+	.twitter
+		width: 744px
+
+	.container 
+		width: 80%
+		margin: 0 auto
+
+	.pricing-items
+		margin-top: 140px
+		display: grid
+		grid-template-columns: 1fr 1fr 1fr 
+		grid-column-gap: 55px
+		color: $accent
+		margin-left: 43px
+		width: 100%
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+		
+
+	#menu-burger
+		width: 0px
+		position: absolute	
+		visibility: hidden
+
+
+	.top-menu
+		nav
+			text-align: right
+			margin-top: 30px
+			margin-right: 44px
+			font-size: 14px
+			li
+				display: inline
+			a
+				font-weight: 600
+				color: #fff
+				text-transform: uppercase
+				text-decoration: none
+				padding: 8px 15px
+				border-radius: 20px
+				//внизу цвет
+				border: 2px solid rgba(255, 255, 255, .001)
+				&:hover
+					border: 2px solid #fff
+
+
+	.container
+		width: 1200px
+
+	.header-content
+		display: grid
+		grid-template-columns: 1fr 1fr 
+		grid-column-gap: 100px
+		p
+			margin-top: 50px
+			color: #fff
+			font-size: 18px
+			font-weight: 300
+
+	.header-content-item
+		&:nth-child(1)
+			margin-left: -30px
+			margin-top: -50px
+		&:nth-child(2)
+			p
+				margin-top: 30px
+			button
+				margin-top: 50px
+
+	.features-items
+		display: grid
+		grid-template-columns: 680px 1fr
+		margin-top: 120px
+		img
+			width: 100%
+	
+	.features-icon
+		margin: 0
+		padding: 0
+		margin-top: 30px
+		display: grid
+		grid-template-columns: 110px 1fr 
+		text-align: left
+
+	.features-icon-item
+		&:nth-child(1)
+			margin-top: 0
+			img
+				margin-top: 15px
+		img
+			margin-top: 13px
+		p
+			margin-top: 28px
+			text-align: left
+			line-height: 1.5em
+			margin-bottom: 9px	
+
+	.scr-items
+		display: grid
+		grid-template-columns: 1fr 1fr 
+		width: 1000px
+		
+		
+	.scr-item:nth-child(2)
+		margin-top: 65px
+		margin-right: -60px
+
+
+
+	.contact-items
+		display: grid
+		grid-template-columns: 1fr 1fr
+		grid-template-rows: 1fr
+
+
+	.contact-item
+		&:nth-child(1)
+			background-color: #f8f8f8
+		&:nth-child(2)
+			display: grid 
+			grid-template-columns: 115px 1fr
+			background-color: #fff
+			
+	.contact-gray-gutter
+		background-color: #f8f8f8
+
+
+	.contact-item-1-container
+		width: 500px
+		float: right
+
+	.contact-titels
+		margin-top: 80px
+		text-align: left
+		h2
+			text-align: left
+
+	.feedback
+		margin-top: 180px
+
+	#video
+		height: 668px
+
+	.tw-container
+		margin: 0 auto
+		margin-top: 19px
+		width: 85%
+
+	.about-items
+		grid-template-columns: 1fr 1fr 1fr 
+		grid-template-rows: 1fr 1fr
+		grid-column-gap: 115px
+		grid-row-gap: 48px
+
+@media only screen and (min-width : 1600px)
+
+	.scr-items
+		display: grid
+		grid-template-columns: 1fr 1fr 
+		width: 1300px
+
+
