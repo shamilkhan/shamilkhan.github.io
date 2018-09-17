@@ -1,0 +1,72 @@
+.sun
+    height: 50px
+    background-image: url(img/sun.png) 
+    background-repeat: no-repeat
+
+.wrapper
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 100vh
+    background: #333333
+    background: -moz-linear-gradient(45deg, #333333 0%, #222222 100%) 
+    background: -webkit-linear-gradient(45deg, #333333 0%,#222222 100%)
+    background: linear-gradient(45deg, #333333 0%,#222222 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#222222',GradientType=1 )
+
+.loading 
+    background-image: url(../src/img/sunny.svg)
+    background-repeat: no-repeat
+    opacity: .1
+    text-transform: uppercase
+    animation: turning 4s infinite
+
+@keyframes turning
+    &0%
+        transform: rotate(0deg)
+        width: 130px
+        height: 130px
+    &50%
+        transform: rotate(180deg)
+        width: 140px
+        height: 140px
+    &100%
+        transform: rotate(360deg)
+        width: 130px
+        height: 130px
+.logo
+    color: #fff
+    height: 100px
+    width: 100px
+    background-repeat: no-repeat
+    background-size: cover
+    &__sunny
+         background-image: url(../src/img/sunny.svg)  
+    &__rain
+        background-image: url(../src/img/rain.svg)
+    &__snow
+        background-image: url(../src/img/snow.svg)
+    &__moon
+        background-image: url(../src/img/moon.svg)
+
+.city
+    margin-top: 5px
+    font-size: 30px
+    text-transform: uppercase
+    color: #fff
+
+.temp
+    margin-top: 5px
+    text-align: center
+    font-size: 50px
+    &__rain
+        color: #50d1ef	
+    &__sunny
+        color: #ffeb3b
+    &__snow
+        color: #80c7ea
+    &__moon
+        color: #384e64
+    
+   
