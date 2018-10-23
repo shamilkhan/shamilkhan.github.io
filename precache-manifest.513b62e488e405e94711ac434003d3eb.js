@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/solarSystem.b8730282.png"
   },
   {
-    "revision": "0bd13b8d5ca37cc11eb7",
-    "url": "/static/css/main.478d76e0.chunk.css"
+    "revision": "3060e663af930d7b21df",
+    "url": "/static/css/main.5f054796.chunk.css"
   },
   {
     "revision": "a8e58ff638fcb897d982",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/comment.883f8e99.png"
   },
   {
-    "revision": "0bd13b8d5ca37cc11eb7",
-    "url": "/static/js/main.0bd13b8d.chunk.js"
+    "revision": "3060e663af930d7b21df",
+    "url": "/static/js/main.3060e663.chunk.js"
   },
   {
     "revision": "35cd8a61c8f4ba1fa4fb0785f8d09193",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/transitionBottom.05cbec7a.png"
   },
   {
-    "revision": "bc2d7d1a7f402aef6f457ba769593aa3",
+    "revision": "8fbd2b8b6a92042d782d2011ca632c06",
     "url": "/index.html"
   }
 ];
