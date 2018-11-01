@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/RalewayRegular.2d4cd872.ttf"
   },
   {
-    "revision": "6b562d7ca359ccb3259f570bcceb4f70",
-    "url": "/static/media/RalewayLight.6b562d7c.ttf"
-  },
-  {
     "revision": "10aaf1fe80f01468f95c6b76dd89faf4",
     "url": "/static/media/RalewayLight.10aaf1fe.eot"
+  },
+  {
+    "revision": "6b562d7ca359ccb3259f570bcceb4f70",
+    "url": "/static/media/RalewayLight.6b562d7c.ttf"
   },
   {
     "revision": "0cce44a3a99c99f59c65",
